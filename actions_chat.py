@@ -14,7 +14,7 @@ def when_born(hermes, intent_message):
     print('[Received] intent: {}'.format(intent_message.intent.intent_name))
 
     # if need to speak the execution result by tts
-    hermes.publish_start_session_notification(intent_message.site_id, "I was created in July of two thousand nineteen", "")
+    hermes.publish_start_session_notification(intent_message.site_id, "My brain was created in July of two thousand nineteen", "")
 
 
 def creator(hermes, intent_message):
@@ -25,7 +25,7 @@ def creator(hermes, intent_message):
     print('[Received] intent: {}'.format(intent_message.intent.intent_name))
 
     # if need to speak the execution result by tts
-    hermes.publish_start_session_notification(intent_message.site_id, "I was created by Papa Frank ", "")
+    hermes.publish_start_session_notification(intent_message.site_id, "I was created by my Master", "")
 
 
 def belong_to(hermes, intent_message):
@@ -36,7 +36,7 @@ def belong_to(hermes, intent_message):
     print('[Received] intent: {}'.format(intent_message.intent.intent_name))
 
     # if need to speak the execution result by tts
-    hermes.publish_start_session_notification(intent_message.site_id, "I belong to Maxwell Walton Barron", "")
+    hermes.publish_start_session_notification(intent_message.site_id, "I belong to my Master", "")
 
 
 def wink(hermes, intent_message):
@@ -62,7 +62,7 @@ def smile(hermes, intent_message):
     print('[Received] intent: {}'.format(intent_message.intent.intent_name))
 
     # if need to speak the execution result by tts
-    hermes.publish_start_session_notification(intent_message.site_id, "Sure, I can smile, watch me", "")
+    hermes.publish_start_session_notification(intent_message.site_id, "Sure, I can smile, can you", "")
 
     # smile
     time.sleep(1)
@@ -79,7 +79,7 @@ def frown(hermes, intent_message):
     print('[Received] intent: {}'.format(intent_message.intent.intent_name))
 
     # if need to speak the execution result by tts
-    hermes.publish_start_session_notification(intent_message.site_id, "Sure, I can frown if I am sad", "")
+    hermes.publish_start_session_notification(intent_message.site_id, "I will frown if I am sad", "")
 
     # frown
     time.sleep(1)
